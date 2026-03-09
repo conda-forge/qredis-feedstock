@@ -1,5 +1,5 @@
 {% set name = "qredis" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qredis-{{ version }}.tar.gz
-  sha256: 67b1e11e106ff8e68418b25ff06e55d772f529f94c13197927b63fdd299d51b9
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/qredis-{{ version }}.tar.gz
+  sha256: acbe081d3c1c4395aed0577ab971ffd61bccc0e7b8d37b1a2b5c7882b7798db0
 
 build:
   number: 0
